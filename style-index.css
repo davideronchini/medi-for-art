@@ -1,0 +1,217 @@
+/* ! General style of the website */
+html{ overflow-x: hidden; min-height: 100vh;}
+body{
+  font-family: 'Noto Sans';
+  font-weight: 300;
+  font-size: 1.32vw;
+  background-color: #F0F1F4;
+  right: 0;
+  top: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+a{ text-decoration: none; color: #ffffff; cursor: pointer;}
+
+
+/* Btn */
+.btn{
+  position: absolute;
+  width: 3.5vw;
+  height: 3.5vw;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn img{
+  width: 100% !important;
+}
+
+#btn-1 {
+  top: -0.4vw;
+  right: 0.35vw;
+}
+
+#btn-2{
+  top: 38.7vw;
+  left: 1.5vw;
+}
+
+#btn-3 {
+  top: 1.5vw;
+  right: 1.5vw;
+}
+
+
+/* Header */
+.header{
+  position: absolute;
+  width: 90vw;
+  padding: 1.8vw 5vw 0.5vw 5vw;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.24s cubic-bezier(.17,.67,.86,.58);
+  z-index: 3;
+  border-bottom: 0vw solid rgba(35, 36, 42, 0.05);
+}
+
+.header img{
+  padding-top: 0.7vw;
+  width: 11.2vw;
+}
+
+.links{
+  display: flex;
+  margin: 0 auto;
+}
+
+.links h4{
+  font-size: 1.1vw;
+  font-weight: 300;
+  padding-top: 1.35vw;
+  margin: 0 1.5vw 0.44vw 1.5vw;
+  letter-spacing: 0vw;
+  opacity: 70%;
+  transition: all 0.08s cubic-bezier(.42,0,.58,1);
+}
+
+.links .selected{
+  opacity: 1;
+  font-weight: 400;
+}
+
+.links h4:hover{
+  opacity: 100%;
+}
+
+/* Button */
+button{
+  position: relative;
+  background-color: #FFFFFF;
+  border: 0.1vw solid transparent;
+  width: 13vw;
+  height: 4.2vw;
+  cursor: pointer;
+  border-radius: 2.1vw;
+  transition: 0.2s cubic-bezier(.25,.1,.25,1);
+  color: #1C1008;
+}
+
+button h5{
+  font-family: 'Noto Sans';
+  font-size: 1.2vw;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: left;
+  width: 100%;
+  margin-left: 1.4vw;
+  color: #141D24;
+}
+
+
+/* Hero */
+.hero{
+  width: 90vw;
+  height: calc(100vh - 8vw);
+  padding: 13vw 5vw 0 5vw;
+  color: #fff;
+  text-align: center;
+  background-image: url('resources/hero-bg.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h2{
+  margin: 2vw 0 3vw 0;
+  font-size: 5.15vw;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+/* Content */
+.content{
+  width: 90vw;
+  margin: 4vw 5vw 0 5vw;
+  display: flex;
+}
+
+.content .big-block{
+  width: 43vw;
+  border-radius: 3vw;
+}
+
+.content .big-block:first-of-type{
+  width: 39vw;
+  height: 38.6vw;
+  overflow: hidden;
+  padding: 2.5vw;
+  margin-right: 2vw;
+  background-color: #ffffff;
+  line-height: 1.4;
+  position: relative;
+}
+
+.content .big-block:first-of-type h2{
+  font-size: 3.1vw;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 2vw;
+}
+
+.content .big-block:first-of-type h3 {
+  font-size: 1.46vw;
+  line-height: 1.4;
+  opacity: 0.4;
+}
+
+.content .big-block #img-transform {
+  width: 100%;
+  margin: 0%;
+  transform: scale(1.2) translate(-2vw, 1vw);
+}
+
+.content .medium-block{
+  display: flex;
+}
+
+.content .medium-block img {
+  width: 100%;
+  border-radius: 2.5vw;
+  margin-bottom: 2vw;
+}
+
+.content .small-block {
+  width: 21.5vw;
+  border-radius: 2.5vw;
+  margin-bottom: 2vw;
+  position: relative;
+}
+
+.content .small-block:first-of-type{
+  margin-right: 2vw;
+}
+
+
+/* Footer */
+.footer img{
+  width: 14%;
+  margin: 0 43%;
+  margin-top: 1vw;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 1.2vw;
+  color: #1C1008;
+  opacity: 0.5;
+  margin: 2vw 0 4vw 0;
+  line-height: 1.3;
+}

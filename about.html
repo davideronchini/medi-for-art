@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Partecipa a MarcheRobot, il contest scolastico per studenti under 18 delle scuole marchigiane! Sfrutta questa opportunità di crescita personale e distinguiti fra i progetti di decine di scuole. Iscriviti ora e dimostra a tutti il tuo talento!">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts (Noto sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- AOS animations library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Altre impostazioni del sito -->
+    <title>MarcheRobot | Iscriviti ora</title>
+    <link rel="stylesheet" href="style-about.css">
+    <link rel="shortcut icon" type="image/svg" href="resources/favicon.webp">
+
+  </head>
+  <body>
+
+    <!-- Header -->
+    <div class="header">
+      <a href="#hero" class="smooth" data-aos="fade-down" data-aos-duration="1200"><img src="resources/light-logo.webp" alt=""></a>
+      <div class="links">
+        <a href="index.html" data-aos="fade-down" data-aos-delay="600"><h4>Il progetto</h4></a>
+        <!--<a href="" data-aos="fade-down" data-aos-delay="800"  data-aos-duration="800"><h4>Faq</h4></a>-->
+        <a href="#hero" class="smooth" data-aos="fade-down"data-aos-delay="1000"  data-aos-duration="800"><h4 class="selected">Chi siamo</h4></a>
+      </div>
+      <div id="header-button">
+        <a href="#join" class="smooth" data-aos="fade-down" data-aos-delay="1600">
+          <button>
+            <h5>Contattaci</h5>
+            <div class="btn" id="btn-1"><img src="resources/dark-btn.webp" alt=""></div>
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero  -->
+    <div class="hero" id="hero">
+      <h3>Ecco in cosa consiste il nostro progetto</h3>
+      <h2>Medi4Art</h2>
+      <p>Valorizza le opere esposte in un museo in modo innovativo e coinvolgente! Il nostro dispositivo portatile, basato
+      sull’integrazione dell’API di Chat GPT con modelli di speech recognition e text-to-speech, ti permette di fornire
+      risposte rapide e dettagliate ai visitatori che porgeranno domande sulle opere esposte. Grazie alla capacità di generare
+      testo coerente e di rispondere a domande specifiche dell’API, i visitatori potranno ottenere informazioni dettagliate
+      sulle opere in modo rapido e intuitivo. Il dispositivo è dotato di microfono e altoparlante, di piccole dimensioni e
+      facilmente utilizzabile in ogni angolo del museo grazie alla sua batteria ricaricabile.<br><br>Ma non è tutto! Potrai personalizzare le risposte in base alle opere esposte e alle esigenze specifiche dei visitatori,
+      grazie alla nostra interfaccia web per la gestione delle informazioni sulle opere, che potranno essere aggiornate e
+      modificate in tempo reale dai curatori del museo.<br><br>E se vuoi andare oltre, potrai integrare funzionalità aggiuntive come un sensore di temperatura per monitorare la
+      conservazione delle opere o la possibilità di attivare un brano musicale o modificare l’illuminazione della stanza con
+      un semplice comando vocale dei visitatori.<br><br>Il nostro dispositivo di speech recognition e text-to-speech basato sull’API di Chat GPT ti consente di offrire
+      un’esperienza di visita unica e coinvolgente, che valorizza le opere esposte e crea un’atmosfera suggestiva. Non perdere
+      l’opportunità di innovare la tua offerta museale con il nostro dispositivo portatile!</p>
+    </div>
+
+    <div class="images">
+      <img class="big-image" src="resources/img-1.webp" alt="">
+      <div class="small-images">
+        <div id="img-1" class="image"></div>
+        <div id="img-2" class="image"></div>
+      </div>
+      <div class="small-images">
+        <div id="img-3" class="image"></div>
+        <div id="img-4" class="image"></div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="footer">
+      <img src="resources/dark-logo.webp" alt="">
+      <p>In questo sito usiamo solo cookies tecnici<br>che non richiedono approvazione degli utenti</p>
+    </div>
+    <!-- Link to js file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
